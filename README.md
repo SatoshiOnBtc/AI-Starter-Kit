@@ -31,8 +31,8 @@ Developed by <https://github.com/satoshionbtc>, this kit integrates self-hosted 
 ### Cloning the Repository
 
 ```bash
-git clone https://github.com/satoshionbtc/self-hosted-ai-starter-kit.git
-cd self-hosted-ai-starter-kit
+git clone https://github.com/satoshionbtc/ai-starter-kit.git
+cd ai-starter-kit
 ```
 
 ### Running with Docker Compose
@@ -40,8 +40,8 @@ cd self-hosted-ai-starter-kit
 #### For Nvidia GPU Users
 
 ```bash
-git clone https://github.com/satoshionbtc/self-hosted-ai-starter-kit.git
-cd self-hosted-ai-starter-kit
+git clone https://github.com/satoshionbtc/ai-starter-kit.git
+cd ai-starter-kit
 docker compose --profile gpu-nvidia up
 ```
 
@@ -57,8 +57,8 @@ If running on an Apple Silicon Mac, GPU acceleration isn't available within Dock
 To use Ollama on your Mac, check the [Ollama homepage](https://ollama.com/) for installation instructions and then run:
 
 ```bash
-git clone https://github.com/satoshionbtc/self-hosted-ai-starter-kit.git
-cd self-hosted-ai-starter-kit
+git clone https://github.com/satoshionbtc/ai-starter-kit.git
+cd ai-starter-kit
 docker compose up
 ```
 
@@ -67,8 +67,8 @@ After setup, update the Ollama credentials to `http://host.docker.internal:11434
 #### For Other Users
 
 ```bash
-git clone https://github.com/satoshionbtc/self-hosted-ai-starter-kit.git
-cd self-hosted-ai-starter-kit
+git clone https://github.com/satoshionbtc/ai-starter-kit.git
+cd ai-starter-kit
 docker compose --profile cpu up
 ```
 
